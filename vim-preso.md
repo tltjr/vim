@@ -1,6 +1,8 @@
 <!-- (use markoff for display) -->
 <!-- Enable KeyCastr -->
 # Vim - A Whirlwind Tour
+> Thomas Thornton (@tltjr)
+
 1. Why Vim?
   * Available in most editors and operating systems
   * Visual Studio, Emacs, and Sublime Text all have support
@@ -69,6 +71,7 @@ def __eq__(self, other):
    matters)
 4. What am I cutting or copying???
   * Full line: dd, yy, or cc
+  * Multiple lines: dnd, yny, or cnc (e.g. d5d - delete 5 lines)
   * Cursor to the end of the line: {c|d|y}$
   * Cursor to the end of the word: {c|d|y}{num}w
   * Cursor to a character: {c|d|y}{t|f}{char}
@@ -118,20 +121,26 @@ export const reducer =
 ### Review my .vimrc
 
 # Plugins
+  * Pathogen
+  * Show the plugins in ~/.vim/bundle
 
 # remapping esc:
-  windows - sharp keys
-  mac - sys prefs - keyboard - Modifier Keys
+#####  Windows 
+  * Sharp Keys
+#####  Mac 
+  * Sys Prefs - Keyboard - Modifier Keys
 
 # Macros
 stick around for my other presentation!
 
+# Tabs vs Buffers (if time permits)
+
 # Learn More!
-Suggestions for improving
-  start with hjkl, d and y, and u
-  add etc...
-vimcasts
-books?
-just start using it!
-vim golf
+1. Suggestions for improving
+  * start with hjkl, d and y, and u
+  * add search/replace, use /
+  * Text Objects
+2. vimcasts
+3. Just start using it!
+4. vim golf
 
